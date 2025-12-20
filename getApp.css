@@ -1,0 +1,32 @@
+#getApp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10vw;
+    margin-left: 7vw;
+    margin-top: 3vw;
+}
+#getApp div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#getApp div p{
+    font-family: 'Roboto';
+    color: #727272;
+    font-size: 19px;
+    width: 33vw;
+    line-height: 30px;
+}
+#getApp div h1{
+    font-family: 'Inter Tight';
+}
+#getApp div button{
+    font-family: 'Inter Tight';
+    color: white;
+    background-color:#222222;
+    margin-top: 1vw;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 1vw 2vw;
+    width: 14vw;
+}

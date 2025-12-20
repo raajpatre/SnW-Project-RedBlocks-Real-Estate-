@@ -1,0 +1,61 @@
+main{
+    margin: 0;
+    padding: 0;
+    height: 92vh;
+    background: url('sell-page-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 66vw;
+    height: 45vh;
+}
+#box h1{
+    text-align: center;
+    font-family: 'Inter Tight';
+    width: 55vw;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin-top: -1vw;
+    color: #333333;
+}
+#box p{
+    margin-top: -1vw;
+    text-align: center;
+    font-family: 'Roboto';
+    width: 58vw;
+    font-size: 1.15vw;
+}
+#box input{
+    width: 25vw;
+    height: 2.1vw;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+#box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.9vw;
+    height: 2.9vw;
+    background-color: #fe4d03;
+    border: none;
+    border-radius: 4px;
+}
+#box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 29.5vw;
+}

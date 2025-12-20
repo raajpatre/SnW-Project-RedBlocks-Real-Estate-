@@ -1,0 +1,29 @@
+#sellbox{
+    border: 1px solid #fe4d03;
+    height: 15vw;
+    background-color: #faf9f8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sellhome{ 
+    background-color: #faf9f8;
+    padding: 5vw;
+}
+#sellbox h1{
+    font-family: 'Inter Tight';
+    font-size: 40px;
+}
+#sellbox button{
+    background-color:#fe4d03;
+    color: white;
+    border: none;
+    width: 16.5vw;
+    height: 3.5vw;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 1vw;
+    font-size: 16px;
+}

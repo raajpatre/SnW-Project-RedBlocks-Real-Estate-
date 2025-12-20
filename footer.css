@@ -1,0 +1,35 @@
+footer{
+    height: 67vh;
+    background-color: #faf9f8;
+}
+#about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 3fr;
+    margin: 3vw 11.5vw;
+    
+}
+.cols{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cols p{
+    font-family: 'Roboto';
+    margin-bottom: 1vw;
+}
+.cols h5{
+    font-family: 'Inter Tight';
+    margin-top: -0.5vw;
+}
+.img img{
+    width: 9vw;
+}
+.cprights p{
+    font-size: 13px;
+    margin-bottom: -0.01vw;
+}
+.cprights a{
+    color: #2d7b82;
+    text-decoration: none;
+}

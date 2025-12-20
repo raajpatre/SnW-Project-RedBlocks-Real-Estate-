@@ -1,0 +1,50 @@
+#search{
+    height: 52vh;
+    width: 100vw;
+    background-image: url("cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+}
+#left-search{
+    position: relative;
+    top: 4.6vh;
+    left: 9vw;
+    color: white;
+
+}
+#left-search h1{
+    font-family:'Inter Tight';
+    font-size:43px;
+    width: 26vw;
+}
+#left-search ul li{
+    list-style: none;
+    padding: 1.7vh;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+
+}
+#left-search ul{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 27vw;
+    margin-bottom: 0px;
+}
+#searchbar{
+    background-color: white;
+    width: 37vw;
+    height: 9vh;
+    border-radius: 10px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#searchbar input{
+    margin-left: 1vw;
+    height: 3vw;
+    width: 28vw;
+    border: none;
+}

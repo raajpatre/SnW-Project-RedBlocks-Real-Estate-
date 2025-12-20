@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 1</title>
+    <script src="mortgage-option.js"></script>
+    <link rel="stylesheet" href="mortgage-Nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="sellPage-box.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><h4>Customising your rate</h4></nav>
+    <div id="progbar" style="display: flex;">
+        <div style="background-color: chocolate;width: 90vw;"></div>
+        <div style="background-color: rgb(184, 177, 177);width: 10vw;"></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center;margin:1vw 25vw;">
+        <a href="form5.html" style="margin: 1vw 0vw;">
+            <img src="rightarrowcopy2.svg" alt="">
+        </a>
+        <h2>What's your down payment amount?</h2>
+        <p id="p">Based on a purchase price of $250,000</p>
+        <div id="opt">
+            <div id="ans1" onclick="select1(),rem2(),rem3(),rem4(),rem5()"><p>0%</p></div>
+            <div id="ans2" onclick="select2(),rem1(),rem3(),rem4(),rem5()"><p>3% ($7,500)</p></div>
+            <div id="ans3" onclick="select3(),rem2(),rem1(),rem4(),rem5()"><p>5% ($12,500)</p></div>
+            <div id="ans4" onclick="select4(),rem2(),rem3(),rem1(),rem5()"><p>10% ($25,000)</p></div>
+            <div id="ans5" onclick="select5(),rem2(),rem3(),rem4(),rem1()"><p>20% (%50,000) or more</p></div>
+        </div>
+        <a href="form7.html">
+        <button>Next</button>
+        </a>
+    </div>
+</body>
+</html>

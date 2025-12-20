@@ -1,0 +1,18 @@
+#nearme ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#nearme{
+    display: flex;
+    justify-content: center;
+    margin: 3vw 0vw;
+}
+#nearme h2{
+    font-family: 'Inter Tight';
+}
+#nearme a{
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #2d7b82;
+}

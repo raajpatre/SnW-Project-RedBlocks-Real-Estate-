@@ -1,0 +1,14 @@
+#navsearchbar input{
+    margin-left: 1vw;
+    height: 2.7vw;
+    width: 23vw;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    margin-left: -1vw;
+    margin-right: 1vw;
+}
+#navsearchbar{
+    display: flex;
+    align-items: center;
+    margin-left: -6vw;
+}

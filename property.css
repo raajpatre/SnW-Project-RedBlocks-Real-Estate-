@@ -1,0 +1,110 @@
+#innermargin{
+    margin: 3vw 7vw;
+}
+#popular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#popular div button{
+    height: 3.5vw;
+    width: 3.5vw;
+    margin-top: 2vw;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#bt1{
+    background-color: white;
+    box-shadow: 0 1.5px 2.5px rgb(179, 169, 169);
+    scale: 1.1;
+}
+#bt2{
+    margin-left: 1.5vw;
+    /* background-color: white;
+    box-shadow: 0 1.5px 2.5px rgb(179, 169, 169); */
+}
+#popular div p{
+    font-family: 'Roboto';
+    color:#9b9b9a;
+}
+#popular div p span{
+    font-family: 'Inter Tight';
+    color:black;
+    font-size: 2vw;
+    margin-right:2vw;
+}
+#overflowscroll{
+    width: 85vw;
+    margin-top: 4vw;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.properties{
+    display:inline-block;
+    margin-left: 1.3vw;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0;
+}
+.properties .scrollx img{
+    width: 400px;
+    height: 300px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+.scrollx{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.properties span{
+    margin-top: -10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.properties p{
+    margin-top: -12px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+  }
+.properties p span{
+    margin-bottom: 20px;
+}
+.properties span h3{
+    font-family: 'Inter Tight';
+}
+.properties span img{
+    width: 20px;
+    margin-left: 10px;
+    margin-right:20px ;
+}
+.properties span #img{
+    width: 25px;
+    height: 25px;
+    margin-right:20px ;
+}
+#Threedots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+#Threedots div{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}

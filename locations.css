@@ -1,0 +1,27 @@
+#locations #cont{
+    margin: 8vw 5vw;
+}
+#locations .cities{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,2vw);
+    /* border: 1px solid black; */
+
+}
+/* #locations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+} */
+#locations h3{
+    font-family: 'Inter Tight';
+}
+#locations a{
+    text-decoration: none;
+    color: #2d7b82;
+}
+.charges{
+    display: flex;
+    width: 30vw;
+}

@@ -1,0 +1,77 @@
+#Talk-to-us{
+    width: 100vw;
+    height: 110vh;
+    background-color:#e9e9e9;
+    display: flex;
+    justify-content: center;
+}
+#Talk-to-us #form-container{
+    width: 35vw;
+    margin-top: 3vw;
+}
+#Talk-to-us form{
+    margin-top: 5vw;
+}
+#Talk-to-us #form-container div h1{
+    font-family: 'Inter Tight';
+}
+#Talk-to-us #form-container div p{
+    font-family: 'Roboto';
+    color: #727272;
+    font-size: 18px;
+}
+#Talk-to-us form label{
+    font-weight: bold;
+    font-family: 'Inter Tight';
+    font-size: 15px;
+}
+#Talk-to-us form #findadd{
+    display: flex;
+}
+#Talk-to-us form #findadd div{
+    height: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1vw;
+    background-color:#222222 ;
+    padding: 1vw;
+    border-radius: 5px;
+}
+#Talk-to-us form #findadd input{
+    width: 30vw;
+    margin-right: 1vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+#Talk-to-us form div span input{ 
+    /* phone and email input */
+    border: 0.5px solid black;
+    width: 16vw;
+    height: 2vw;
+    border-radius: 5px;
+}
+#Talk-to-us textarea{
+    width: 35vw;
+    height: 8vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+form button{
+    width: 35vw;
+    font-family:'Inter Tight';
+    font-size: medium;
+    color: white;
+    background-color: #fe4d03;
+    border: none;
+    border-radius: 5px;
+    padding: 1vw;
+}
+p a{
+    /* Terms and condition anchor tag */
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #2d7b82;
+}

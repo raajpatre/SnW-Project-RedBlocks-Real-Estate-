@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+    <script src="mortgage-option.js"></script>
+    <link rel="stylesheet" href="mortgage-Nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="sellPage-box.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,600;1,600&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav><h4>Customising your rate</h4></nav>
+    <div id="progbar" style="display: flex;">
+        <div style="background-color: chocolate;width: 30vw;"></div>
+        <div style="background-color: rgb(184, 177, 177);width: 70vw;"></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center;margin:1vw 25vw;">
+        <a href="form1.html" style="margin: 1vw 0vw;">
+            <img src="rightarrowcopy2.svg" alt="">
+        </a>
+        <h2>What style of home do you want?</h2>
+        <p id="p">We've connected you to our partner Rocket Mortgage® to provide a quick estimate.</p>
+        <div id="opt">
+            <div id="ans1" onclick="select1(),rem2(),rem3(),rem4(),rem5()"><p>Single-family</p></div>
+            <div id="ans2" onclick="select2(),rem1(),rem3(),rem4(),rem5()"><p>Multifamily</p></div>
+            <div id="ans3" onclick="select3(),rem2(),rem1(),rem4(),rem5()"><p>Condo</p></div>
+            <div id="ans4" onclick="select4(),rem2(),rem3(),rem1(),rem5()"><p>Manufactured</p></div>
+            <!-- <div id="ans5" onclick="select5(),rem2(),rem3(),rem4(),rem1()"><p>Just researcing</p></div> -->
+        </div>
+        <a href="form3.html">
+        <button>Next</button>
+        </a>
+    </div>
+</body>
+</html>

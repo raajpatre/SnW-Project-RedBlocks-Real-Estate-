@@ -1,0 +1,32 @@
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vw 0vw;
+    background-color: white;
+}
+#cards div{
+    border: 1px solid rgb(189, 183, 183);
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    border-radius: 15px;
+}
+
+#cards div img{
+    width: 8vw;
+}
+#cards div p{
+    text-align: center;
+    width: 19vw;
+    font-family: 'Roboto';
+    margin-top: -1vw;
+}
+#cards div h2{
+    text-align: center;
+    font-family: 'Inter Tight';
+}

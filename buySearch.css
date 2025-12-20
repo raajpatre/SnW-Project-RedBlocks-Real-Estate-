@@ -1,0 +1,53 @@
+#search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin: 0px 7vw;
+
+}
+/* #search div{
+    border: 1px solid red;
+} */
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.one h1{
+    font-family: 'Inter Tight';
+}
+.one p{
+    font-family: 'Roboto';
+    font-size: 1.3vw;
+    width: 30vw;
+}
+.three input{
+    border: 0.5px solid grey;
+    width: 37vw;
+    height: 2.5vw;
+}
+.three select{
+    border: 0.5px solid grey;
+    width: 12.5vw;
+    height: 2.5vw;
+
+}
+.three button{
+    background-color:#fe4d03;
+    color: white;
+    height: 2.5vw;
+    width: 16vw;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Inter Tight';
+    font-size: 15px;
+
+}
+.three{
+    grid-column: span 3;
+    font-family: 'Roboto';
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1.3fr;
+}
+/* #fe4d03 */
