@@ -1,0 +1,38 @@
+#rentalResources{
+    padding: 2vw;
+    height: 50vh;
+    width: 100vw;
+}
+#rentalResources h2{
+    font-family: 'Inter Tight';
+    margin-left: 7vw;
+    font-size: 33px;
+    color: #333333;
+}
+#rentalResources .rentcards{
+    height: 42vh;
+    width: 26vw;
+   box-shadow: 1px 1px 5px rgb(172, 167, 167);
+    border-radius: 10px;
+}
+
+#rentalResources .rentcards img{
+    height: 28vh;
+    width: 26vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#rentalResources .rentcards p{
+    width: 23vw;
+    margin: 1vw;
+    font-size: 19px;
+    font-family: 'Inter Tight';
+}
+#rentalResources .rentcards a{
+    width: 23vw;
+    margin: 1vw;
+    font-size: 16px;
+    font-family: 'Inter Tight';
+    text-decoration: none;
+    color: #2d7b82;
+}

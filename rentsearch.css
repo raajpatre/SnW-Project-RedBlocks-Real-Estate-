@@ -1,0 +1,56 @@
+#srchbox{
+    margin: 0.5vw 0vw;
+    height: 50vh;
+    width: 100vw;
+    background: url("rent-page-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#inner-srchbox{
+    height: 28vh;
+    width: 34vw; 
+    background-color: rgba(80, 75, 75, 0.7);
+    border-radius: 15px;
+    margin-left: 9vw;
+    padding: 2vw;
+}
+#inner-srchbox h1{
+    margin-top: -0.7vw;
+    font-family: 'Inter Tight';
+    font-size: 40px;
+    color: white;
+}
+#inner-srchbox p{
+    font-family: 'Roboto';
+    font-size: 25px;
+    width: 35vw;
+    color: white;
+    margin-top: -1vw;
+}
+#inner-srchbox div{
+    background-color: white;
+    border-radius: 10px;
+    width: 34vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inner-srchbox div input{
+    height: 2vw;
+    margin-left: 1vw;
+    width: 27vw;
+    border: none;
+    font-family: 'Roboto';
+}
+#inner-srchbox div button{
+    height: 2.7vw;
+    width: 2.7vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #fe4d03;
+    margin-right: 0.7vw;
+}
