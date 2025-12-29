@@ -108,3 +108,15 @@
     height: 7px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 600px) {
+    #popular div p span{
+    font-family: 'Inter Tight';
+    color:black;
+    font-size: 4.5vw;
+    margin-right:2vw;
+}
+#popular div button{
+    display: none;
+}
+}
