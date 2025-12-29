@@ -8,6 +8,13 @@
     justify-content: center;
     margin: 3vw 0vw;
 }
+#nearme div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 80vw;
+    margin-left: -2.5vw;
+}
 #nearme h2{
     font-family: 'Inter Tight';
 }
@@ -15,4 +22,25 @@
     font-family: 'Roboto';
     text-decoration: none;
     color: #2d7b82;
+}
+@media screen and (max-width: 600px) {
+    #nearme{
+    display: flex;
+    justify-content: center;
+    margin: 1vw 0vw;
+}
+#nearme div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 90vw;
+    margin-left: -2.5vw;
+}
+#nearme ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-left: -5vw;
+}
 }
