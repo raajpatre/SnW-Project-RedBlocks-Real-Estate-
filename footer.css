@@ -33,3 +33,37 @@ footer{
     color: #2d7b82;
     text-decoration: none;
 }
+@media screen and (max-width: 600px) {
+footer{
+    margin-top: 1vw;
+    height: 220vh;
+    background-color: #faf9f8;
+}
+#about-us{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 3vw 11.5vw;
+    
+}
+.img img{
+    width: 40vw;
+}
+.cols h5{
+    font-family: 'Inter Tight';
+    margin-top: -0.5vw;
+    font-size: large;
+}
+.colsres p{
+    font-size: large;
+}
+.img p{
+    font-size: large;
+}
+.cprights p{
+    font-size: 13px;
+    margin-bottom: -0.01vw;
+}
+.cols{
+    margin-bottom: 2vw;
+}
+}
