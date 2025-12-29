@@ -1,3 +1,9 @@
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:3vw;
+}
 #logo{
     width: 11vw;
 }
@@ -31,4 +37,44 @@
     border-radius: 1vh;
     font-weight: 600;
     font-size: 13px;
+}
+#ham{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:7vw;
+}
+  
+#logo{
+    width: 28vw;
+}
+#nav-items{
+    display:none;
+}
+#ham{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    margin-right: 2vw;
+}
+#ham button{
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+.ham{
+    border: 1px solid black;
+    width: 3vw;
+    margin-bottom: 0.5vw;
+}
+
 }
