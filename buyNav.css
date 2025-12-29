@@ -6,9 +6,59 @@
     border-radius: 5px;
     margin-left: -1vw;
     margin-right: 1vw;
+    font-size: 17px; 
+    font-family: 'Roboto'; 
+    font-weight: 700;
 }
-#navsearchbar{
+#navsearchbar {
     display: flex;
     align-items: center;
-    margin-left: -15vw;
+    margin-left: -13vw;
+}
+#navsearchbar div{
+    background-color: #fe4d03;
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    margin-right: 1vw;
+    height: 1vw;
+    width: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navsearchbar div img{
+    width: 1.3vw;
+}
+@media screen and (max-width: 600px) {
+    #navsearchbar{
+    display: flex;
+    align-items: center;
+    margin-left: -13vw;
+}
+#navsearchbar div{
+    background-color: #fe4d03;
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    margin-right: 1vw;
+    height: 5vw;
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navsearchbar div img{
+    width: 2.5vw;
+}
+#navsearchbar input{
+    margin-left: 1vw;
+    height: 5vw;
+    width: 50vw;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    margin-left: -1vw;
+    margin-right: 1vw;
+    font-size: 17px; 
+    font-family: 'Roboto'; 
+    font-weight: 700;
+}
 }
