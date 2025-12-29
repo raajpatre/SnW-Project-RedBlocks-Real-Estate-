@@ -25,3 +25,18 @@
     display: flex;
     width: 30vw;
 }
+@media screen and (max-width: 600px) {
+    #locations .cities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,4vw);
+    /* border: 1px solid black; */
+
+}
+#locations a{
+    text-decoration: none;
+    color: #2d7b82;
+    margin-bottom: 1vw;
+}
+
+}
