@@ -27,6 +27,8 @@
 }
 #Talk-to-us form #findadd{
     display: flex;
+    align-items: center;
+    height: 4vh;
 }
 #Talk-to-us form #findadd div{
     height: 1vw;
@@ -40,12 +42,13 @@
 }
 #Talk-to-us form #findadd input{
     width: 30vw;
+    height: 3.5vh;
     margin-right: 1vw;
     border: 0.5px solid black;
     border-radius: 5px;
 }
 
-#Talk-to-us form div span input{ 
+#Talk-to-us form div .ep input{ 
     /* phone and email input */
     border: 0.5px solid black;
     width: 16vw;
@@ -74,4 +77,41 @@ p a{
     font-family: sans-serif;
     font-weight: 600;
     color: #2d7b82;
+}
+@media screen and (max-width: 600px) {
+    #Talk-to-us #form-container{
+    width: 88vw;
+    margin-top: 3vw;
+}
+#Talk-to-us form #findadd input{
+    width: 75vw;
+    margin-right: 1vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+#Talk-to-us form div .ep input{ 
+    /* phone and email input */
+    border: 0.5px solid black;
+    width: 75vw;
+    height: 5vw;
+    border-radius: 5px;
+}
+#Talk-to-us textarea{
+    width: 75vw;
+    height: 20vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+form button{
+    width: 85vw;
+    font-family:'Inter Tight';
+    font-size: medium;
+    color: white;
+    background-color: #fe4d03;
+    border: none;
+    border-radius: 5px;
+    padding: 1vw;
+}
+
 }
