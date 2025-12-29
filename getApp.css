@@ -19,6 +19,7 @@
 }
 #getApp div h1{
     font-family: 'Inter Tight';
+    width: 30vw;
 }
 #getApp div button{
     font-family: 'Inter Tight';
@@ -29,4 +30,41 @@
     font-size: 16px;
     padding: 1vw 2vw;
     width: 14vw;
+}
+#getApp div img{
+    width: 45vw;
+}
+
+@media screen and (max-width: 600px) {
+    #getApp{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 190vh;
+}
+#getApp div p{
+    font-family: 'Roboto';
+    color: #727272;
+    font-size: 19px;
+    width: 80vw;
+    line-height: 30px;
+}
+#getApp div img{
+    width: 90vw;
+}
+#getApp div h1{
+    font-family: 'Inter Tight';
+    width: 80vw;
+    font-size: 5vw;
+}
+#getApp div button{
+    font-family: 'Inter Tight';
+    color: white;
+    background-color:#222222;
+    margin-top: 1vw;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 1vw 2vw;
+    width: 30vw;
+}
+
 }
