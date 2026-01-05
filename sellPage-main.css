@@ -59,3 +59,36 @@ main{
     align-items: center;
     width: 29.5vw;
 }
+@media screen and (max-width:600px){
+    main{
+    height: 40vh;
+    width: 90vw;
+}
+#box{
+    width: 80vw;
+    height: 25vh;
+}
+#box h1{
+    text-align: left;
+    width: 55vw;
+    font-size: 4.5vw;
+}
+#box p{
+    text-align: left;
+    width: 58vw;
+    font-size: 2.4vw;
+}
+#box input{
+    width: 26vw;
+    height: 3.5vw;
+    font-size: 2vw;
+}
+#box button{
+    width: 3.9vw;
+    height: 3.9vw;
+    border-radius: 4px;
+}
+#box div{
+    width: 32vw;
+}
+}

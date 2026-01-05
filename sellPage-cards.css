@@ -30,3 +30,28 @@
     text-align: center;
     font-family: 'Inter Tight';
 }
+@media screen and (max-width:600px){
+    #cards{
+    flex-direction: column;
+    /* margin: 4vw 0vw; */
+}
+#cards div{
+    padding: 2vw;
+    margin-bottom: 2vw;
+    width: 80vw;
+    border-radius: 15px;
+}
+#cards div img{
+    width: 20vw;
+}
+#cards div p{
+    text-align: center;
+    width: 80vw;
+    font-family: 'Roboto';
+    margin-top: -1vw;
+}
+#cards div h2{
+    text-align: center;
+    font-family: 'Inter Tight';
+}
+}
