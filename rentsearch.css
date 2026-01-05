@@ -54,3 +54,42 @@
     background-color: #fe4d03;
     margin-right: 0.7vw;
 }
+@media screen and (max-width: 600px) {
+    #srchbox{
+    margin: 0.5vw 0vw;
+    height: 30vh;
+    width: 100vw;
+}
+#inner-srchbox{
+    height: 20vh;
+    width: 85vw; 
+    margin-left: 5vw;
+}
+#inner-srchbox h1{
+    margin: 1vw;
+    font-size: 5vw;
+}
+#inner-srchbox p{
+    margin: 1vw;
+    margin-top: 2vw;
+    font-size: 3vw;
+    width: 80vw;
+}
+#inner-srchbox div{
+    border-radius: 10px;
+    width: 80vw;
+    height: 4vh;
+}
+#inner-srchbox div input{
+    height: 4vw;
+    margin-left: 1vw;
+    width: 70vw;
+}
+#inner-srchbox div button{
+    height:5vw;
+    width: 5vw;
+}
+#inner-srchbox div button img{
+    width: 2vw;
+}
+}
