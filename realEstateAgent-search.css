@@ -1,0 +1,107 @@
+#srch{
+    width: 98vw;
+    height: 55vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#srch h1{
+    width: 80vw;
+    margin: 0vw 5vw;
+    /* border: 2px solid red; */
+    font-size: 55px;
+    color: #222222;
+    font-family: 'Inter Tight';
+}
+#srch h2{
+    width: 60vw;
+    margin: 0vw 5vw;
+    color: #222222;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    font-family: 'Inter Tight';
+}
+#inner-searchSort{
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 6vh 8vh;
+    width: 67vw;
+    row-gap: 1vw;
+}
+#inner-searchSort div{
+    margin: 0vw 5vw;
+    height: 5vh;
+    /* border: 1px solid red; */
+}
+#srchbox1{
+    grid-column: 6 span;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(200, 194, 194);
+    border-radius:7px;
+    padding: 0.2vw;
+    width: 58vw;
+
+}
+#srchbox1 input{
+    width: 50vw;
+    height: 3vh;
+    border: none;
+    font-family: 'Roboto';
+}
+#srchbox1 img{
+    width: 1vw;
+    height: 1vw;
+    margin: 5px;
+}
+#srchbox1 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    padding: 0.6vw;
+    font-family: 'Inter Tight';
+    color: white;
+    background-color: #fe4d03;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    width: 5vw;
+    margin: 0px 5px;
+}
+#srchbox2{
+    grid-column: 3 span;
+    border: 1px solid rgb(200, 194, 194);
+    border-radius:7px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 29vw;
+    height: 6vh;
+}
+#srchbox2 button{
+    font-family: 'Inter Tight';
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+#srchbox2 button:hover{
+    color: #00828c;
+    background-color: #00838c14;
+
+}
+#inner-searchSort select{
+    margin-left: -9vw;
+    width: 8vw;
+    height: 3vw;
+    padding: 0vw 0.5vw;
+    font-family: 'Roboto';
+    border: 1px solid black;
+    border-radius: 5px;
+}
