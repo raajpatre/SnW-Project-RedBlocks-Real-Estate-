@@ -68,3 +68,21 @@
 }
 
 }
+
+@media screen and (min-width: 344px) and (max-width: 430px){
+
+    #getApp{
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
+#getApp div button{
+    width: 50vw;
+}
+#getApp div h1{
+    font-size: 8vw;
+}
+#exOp{
+    display: none;
+}
+}
