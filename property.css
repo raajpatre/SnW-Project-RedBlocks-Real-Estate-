@@ -120,3 +120,10 @@
     display: none;
 }
 }
+@media screen and (min-width: 344px) and (max-width: 430px){
+    #popular div p span{
+    font-size: 7vw;
+    margin-right:2vw;
+}
+
+}
