@@ -25,11 +25,11 @@
     display: flex;
     width: 30vw;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 430px) and (max-width: 980px) {
     #locations .cities{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6,4vw);
+    grid-template-rows: repeat(15,3vh);
     /* border: 1px solid black; */
 
 }
@@ -39,4 +39,16 @@
     margin-bottom: 1vw;
 }
 
+}
+@media screen and (min-width: 344px) and (max-width: 430px){
+ #locations a{
+    margin-bottom: 1.5vw;
+}
+#locations .cities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(15,3vh);
+    /* border: 1px solid black; */
+
+}
 }
