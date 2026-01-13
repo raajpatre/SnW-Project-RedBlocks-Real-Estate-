@@ -42,7 +42,7 @@ nav{
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 430px) and (max-width: 980px) {
 
     nav{
     display: flex;
@@ -78,4 +78,45 @@ nav{
     margin-bottom: 0.5vw;
 }
 
+}
+
+@media screen and (min-width: 344px) and (max-width: 430px){
+    nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:3vh;
+}
+#logo{
+    width: 30vw;
+}
+    #ham{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw;
+}
+#nav-items{
+    display:none;
+}
+#ham{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25vw;
+    margin-right: 7vw;
+}
+.ham{
+    border: 1px solid black;
+    width: 3vw;
+    margin-bottom: 0.5vw;
+}
+#ham button{
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    font-size: medium;
+    width: 20vw;
+}
 }
