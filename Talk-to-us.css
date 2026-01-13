@@ -32,10 +32,10 @@
 }
 #Talk-to-us form #findadd div{
     height: 1vw;
+    width: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1vw;
     background-color:#222222 ;
     padding: 1vw;
     border-radius: 5px;
@@ -78,7 +78,11 @@ p a{
     font-weight: 600;
     color: #2d7b82;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 431px) and (max-width: 980px)  {
+    #Talk-to-us{
+    width: 100vw;
+    height: 100vh;
+}
     #Talk-to-us #form-container{
     width: 88vw;
     margin-top: 3vw;
@@ -113,5 +117,58 @@ form button{
     border-radius: 5px;
     padding: 1vw;
 }
+    #Talk-to-us form #findadd div{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222222 ;
+    padding: 1vw;
+    border-radius: 5px;
+}
+}
 
+
+@media screen and (min-width: 344px) and (max-width: 430px){
+    #Talk-to-us form #findadd div{
+    height: 7.5vw;
+    width: 7.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#222222 ;
+    padding: 1vw;
+    border-radius: 5px;
+}
+#Talk-to-us form div .ep input{ 
+    /* phone and email input */
+    border: 0.5px solid black;
+    width: 75vw;
+    height: 3.5vh;
+    border-radius: 5px;
+}
+#Talk-to-us #form-container{
+    width: 70vw;
+    margin-top: 3vw;
+}
+form button{
+    height: 4vh;
+}
+#Talk-to-us form #findadd input{
+    width: 75vw;
+    margin-right: 1vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+#Talk-to-us textarea{
+    width: 75vw;
+    height: 20vw;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+#Talk-to-us{
+    width: 100vw;
+    height: 120vh;
+}
 }
