@@ -35,7 +35,7 @@
     width: 45vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 430px) and (max-width: 980px) {
     #getApp{
     display: grid;
     grid-template-columns: 1fr;
@@ -44,7 +44,7 @@
 #getApp div p{
     font-family: 'Roboto';
     color: #727272;
-    font-size: 19px;
+    font-size: 3.3vw;
     width: 80vw;
     line-height: 30px;
 }
@@ -64,7 +64,7 @@
     border-radius: 10px;
     font-size: 16px;
     padding: 1vw 2vw;
-    width: 30vw;
+    width: 35vw;
 }
 
 }
@@ -74,12 +74,31 @@
     #getApp{
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 115vh;
 }
 #getApp div button{
+     font-family: 'Inter Tight';
+    color: white;
+    background-color:#222222;
+    margin-top: 1vw;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 1vw 2vw;
     width: 50vw;
 }
+#getApp div img{
+    width: 75vw;
+}
+#getApp div p{
+    font-family: 'Roboto';
+    color: #727272;
+    font-size: 19px;
+    width: 80vw;
+    line-height: 30px;
+}
 #getApp div h1{
+    font-family: 'Inter Tight';
+    width: 80vw;
     font-size: 8vw;
 }
 #exOp{
