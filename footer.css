@@ -1,6 +1,6 @@
 footer{
     height: 67vh;
-    background-color: #faf9f8;
+    /* background-color: #faf9f8; */
 }
 #about-us{
     display: grid;
@@ -39,7 +39,7 @@ footer{
     margin-top: 1vw;
     height: 105vh;
     width: 100vw;
-    background-color: #faf9f8;
+    /* background-color: #faf9f8; */
 }
 #about-us{
     display: grid;

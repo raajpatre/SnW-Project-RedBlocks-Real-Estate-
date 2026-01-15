@@ -54,6 +54,7 @@
     width: 50vw;
 }
 #sr{
+    margin-top: 2vh;
     display: flex; 
     align-items: center; 
     justify-content: center

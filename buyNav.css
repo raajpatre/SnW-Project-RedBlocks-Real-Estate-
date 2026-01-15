@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     margin-left: -13vw;
-}
+} 
 #navsearchbar div{
     background-color: #fe4d03;
     border-radius: 10px;
@@ -28,6 +28,22 @@
 }
 #navsearchbar div img{
     width: 1.3vw;
+}
+@media screen and (min-width: 344px) and (max-width: 430px){
+    #navsearchbar div{
+    background-color: #fe4d03;
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    margin-right: 1vw;
+    height: 1.1vw;
+    width: 1.1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navsearchbar div img{
+    width: 1.4vw;
+}
 }
 @media screen and (max-width: 600px) {
     #navsearchbar{
