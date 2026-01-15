@@ -1,5 +1,6 @@
 #getApp{
     display: grid;
+    width: 100vw;
     grid-template-columns: 1fr 1fr;
     row-gap: 10vw;
     margin-left: 7vw;

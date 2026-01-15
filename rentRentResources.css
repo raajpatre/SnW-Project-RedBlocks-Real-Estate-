@@ -43,8 +43,58 @@
     text-decoration: none;
     color: #2d7b82;
 }
+@media screen and (min-width: 344px) and (max-width: 430px){
+#rentalResources{
+    margin-top: 5vh;
+    padding: 2vw;
+    height: 125vh;
+    width: 100vw;
+}
+#rentalResources .div1{
+    margin-left: 7vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    width: 80vw;
+}
+#rentalResources h2{
+    font-family: 'Inter Tight';
+    margin-left: 7vw;
+    font-size: 33px;
+    color: #333333;
+}
+#rentalResources .rentcards{
+    height: 35vh;
+    width: 90vw;
+    box-shadow: 1px 1px 5px rgb(172, 167, 167);
+    border-radius: 10px;
+    margin-bottom: 2vh;
+}
 
-@media screen and (max-width: 600px) {
+#rentalResources .rentcards img{
+    height: 24vh;
+    width: 90vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#rentalResources .rentcards p{
+    width: 90vw;
+    margin: 1vw;
+    font-size: 19px;
+    font-family: 'Inter Tight';
+}
+#rentalResources .rentcards a{
+    width: 23vw;
+    margin: 1vw;
+    font-size: 16px;
+    font-family: 'Inter Tight';
+    text-decoration: none;
+    color: #2d7b82;
+}
+}
+@media screen and (min-width: 430px) and (max-width: 980px)  {
+
     #rentalResources{
     /* padding: 2vw; */
     height: 135vh;
@@ -54,23 +104,44 @@
     margin-left: 7vw; 
     flex-direction: column;
     width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+#rentalResources h2{
+    font-family: 'Inter Tight';
+    margin-left: 7vw;
+    font-size: 33px;
+    color: #333333;
 }
 #rentalResources .rentcards{
     height: 42vh;
     width: 90vw;
+    box-shadow: 1px 1px 5px rgb(172, 167, 167);
+    border-radius: 10px;
+    margin-bottom: 2vh;
 }
+
 #rentalResources .rentcards img{
     height: 30vh;
     width: 90vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #rentalResources .rentcards p{
     width: 90vw;
     font-size: 3vw;
     margin: 2vw;
+    font-family: 'Inter Tight';
 }
 #rentalResources .rentcards a{
-    width: 90vw;
+     width: 90vw;
     margin: 2vw;
     font-size: 2.5vw;
+    font-family: 'Inter Tight';
+    text-decoration: none;
+    color: #2d7b82;
 }
+
 }

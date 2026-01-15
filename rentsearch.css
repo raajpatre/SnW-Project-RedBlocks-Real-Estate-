@@ -54,40 +54,132 @@
     background-color: #fe4d03;
     margin-right: 0.7vw;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 344px) and (max-width: 430px){
     #srchbox{
+    margin: 1vh 0vw;
+    height: 35vh;
+    width: 100vw;
+    border-radius: 10px;
+    background: url("rent-page-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#inner-srchbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    height: 25vh;
+    width: 90vw; 
+    background-color: rgba(80, 75, 75, 0.7);
+    border-radius: 15px;
+    margin-left: 3vw;
+    padding: 2vw;
+}
+#inner-srchbox h1{
+    width: 90vw; 
+    margin-top: -0.7vw;
+    font-family: 'Inter Tight';
+    font-size: 9vw;
+    color: white;
+}
+#inner-srchbox p{
+    width: 90vw; 
+    font-family: 'Roboto';
+    font-size: 5vw;
+    color: white;
+    margin-top: -1vw;
+}
+#inner-srchbox div{
+    background-color: white;
+    border-radius: 10px;
+    width: 90vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inner-srchbox div input{
+    height: 3vh;
+    margin-left: 1vw;
+    width: 70vw;
+    border: none;
+    font-family: 'Roboto';
+}
+#inner-srchbox div button{
+    height: 10vw;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #fe4d03;
+    margin-right: 0.7vw;
+}
+#inner-srchbox div button img{
+    width: 5vw;
+}
+}
+
+@media screen and (min-width: 430px) and (max-width: 980px) {
+#srchbox{
     margin: 0.5vw 0vw;
     height: 30vh;
     width: 100vw;
+    background: url("rent-page-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 #inner-srchbox{
     height: 20vh;
     width: 85vw; 
     margin-left: 5vw;
+    background-color: rgba(80, 75, 75, 0.7);
+    border-radius: 15px;
+    padding: 2vw;
 }
 #inner-srchbox h1{
+    font-family: 'Inter Tight';
+    color: white;
     margin: 1vw;
     font-size: 5vw;
 }
 #inner-srchbox p{
+    font-family: 'Roboto';
+    color: white;
     margin: 1vw;
     margin-top: 2vw;
     font-size: 3vw;
     width: 80vw;
 }
 #inner-srchbox div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
     width: 80vw;
     height: 4vh;
 }
 #inner-srchbox div input{
+    border: none;
+    font-family: 'Roboto';
     height: 4vw;
     margin-left: 1vw;
     width: 70vw;
 }
+
 #inner-srchbox div button{
     height:5vw;
     width: 5vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #fe4d03;
+    margin-right: 0.7vw;
 }
 #inner-srchbox div button img{
     width: 2vw;
