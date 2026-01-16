@@ -1,7 +1,7 @@
 #search{
     height: 52vh;
     width: 100vw;
-    background-image: url("cover.png");
+    background-image: url("/Images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1vh;

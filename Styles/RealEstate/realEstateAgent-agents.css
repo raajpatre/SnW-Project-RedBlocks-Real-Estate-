@@ -1,0 +1,179 @@
+#srchAgents{
+    /* border: 2px solid red; */
+    height: 150vh;
+    padding: 0vw 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5vh;
+    
+}
+#srchAgents .agentDetails{
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 5px grey;
+    border-radius:17px;
+    height: 95%;
+    width: 25vw;
+    margin: 0px;
+}
+#srchAgents .agentDetails ul{
+    width: 19vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#srchAgents .agentDetails p{
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails ul p{
+    margin-top: -1vw;;
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails ul h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails img{
+    width: 25vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#agentDetails{
+    padding: 0vw 1vw;
+}
+#agentDetails button{
+    width: 23vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.2vw;
+}
+#agentDetails button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+@media screen and (min-width: 430px) and (max-width: 980px) {
+    #srchAgents{
+    /* border: 2px solid red; */
+    height:130vh;
+    padding: 0vw 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5vh;
+    column-gap: 2vw;
+    
+}
+#srchAgents .agentDetails{
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 5px grey;
+    border-radius:17px;
+    height: 61vw;
+    width: 45vw;
+    margin: 0px;
+}
+#srchAgents .agentDetails ul{
+    width: 35vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#srchAgents .agentDetails p{
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails ul p{
+    margin-top: -1vw;;
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails ul h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails img{
+    width: 45vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#agentDetails{
+    padding: 0vw 1vw;
+}
+#agentDetails button{
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 3vw;
+    margin: auto;
+}
+#agentDetails button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+
+}
+@media screen and (min-width: 344px) and (max-width: 430px){
+    #srchAgents{
+    /* border: 2px solid red; */
+    height: 300vh;
+    padding: 0vw 10vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5vh;
+    
+}
+#srchAgents .agentDetails{
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 5px grey;
+    border-radius:17px;
+    height: 65vh;
+    width: 95vw;
+    margin: 0px;
+}
+#srchAgents .agentDetails ul{
+    width: 65vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#srchAgents .agentDetails p{
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails ul p{
+    margin-top: -1vw;;
+    font-family: 'Roboto';
+}
+#srchAgents .agentDetails ul h3{
+    font-family: 'Inter Tight';
+}
+#srchAgents .agentDetails img{
+    width: 95vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#agentDetails{
+    padding: 0vw 1vw;
+}
+#agentDetails button{
+    width: 90vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 6vw;
+    margin: auto;
+}
+#agentDetails button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+}
+}

@@ -2,7 +2,7 @@
     margin: 0.5vw 0vw;
     height: 50vh;
     width: 100vw;
-    background: url("rent-page-main.jpg");
+    background: url("/Images/rent-page-main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -60,7 +60,7 @@
     height: 35vh;
     width: 100vw;
     border-radius: 10px;
-    background: url("rent-page-main.jpg");
+    background: url("/Images/rent-page-main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -127,7 +127,7 @@
     margin: 0.5vw 0vw;
     height: 30vh;
     width: 100vw;
-    background: url("rent-page-main.jpg");
+    background: url("/Images/rent-page-main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

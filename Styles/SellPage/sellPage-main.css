@@ -2,7 +2,7 @@ main{
     margin: 0;
     padding: 0;
     height: 92vh;
-    background: url('sell-page-main.jpg');
+    background: url('/Images/sell-page-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -64,7 +64,7 @@ main{
     margin: 0;
     padding: 0;
     height: 50vh;
-    background: url('sell-page-main.jpg');
+    background: url('/Images/sell-page-main.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -122,21 +122,42 @@ main{
     width: 50vw;
 }
 }
-@media screen and (min-width: 430px) and (max-width:600px){
-    main{
+@media screen and (min-width: 430px) and (max-width: 980px){
+main{
+    margin: 0;
+    padding: 0;
     height: 40vh;
     width: 100vw;
+    background: url('/Images/sell-page-main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #box{
+    padding: 0;
+    background-color: rgba(245, 245, 245, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     width: 80vw;
     height: 25vh;
 }
 #box h1{
+    font-family: 'Inter Tight';
     text-align: left;
     width: 55vw;
     font-size: 4.5vw;
+    line-height: 5vw;
+    margin-top: -1vw;
+    color: #333333;
 }
 #box p{
+    margin-top: -1vw;
+    font-family: 'Roboto';
     text-align: left;
     width: 58vw;
     font-size: 2.4vw;
@@ -145,13 +166,24 @@ main{
     width: 26vw;
     height: 3.5vw;
     font-size: 2vw;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5vw;
 }
 #box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 3.9vw;
     height: 3.9vw;
     border-radius: 4px;
+    background-color: #fe4d03;
+    border: none;
 }
 #box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 32vw;
 }
 }
